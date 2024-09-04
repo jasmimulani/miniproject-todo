@@ -5,9 +5,9 @@ const  mongoose = require('mongoose')
 const session = require ('express-session');
 const passport = require('passport')
 require('dotenv').config()
-const flash = require('connect-flash')
 const bodyParser = require('body-parser')
 const port = process.env.PORT;
+const flash = require('connect-flash')
 
 
 //  passport config
